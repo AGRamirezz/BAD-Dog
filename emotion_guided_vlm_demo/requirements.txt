@@ -1,0 +1,22 @@
+# Emotion-Guided VLM System - Full AI Stack Dependencies
+
+# Core deep learning frameworks
+torch>=1.11.0
+torchvision>=0.12.0
+transformers>=4.21.0
+
+# Computer vision and image processing
+opencv-python>=4.5.0
+deepface>=0.0.75
+pillow>=8.3.0
+
+# Data processing and visualization
+numpy>=1.21.0
+matplotlib>=3.3.0
+
+# Interactive features (for enhanced Colab experience)
+ipython>=7.30.0
+
+# Optional but recommended for better performance
+# accelerate>=0.12.0  # For faster model loading
+# torch-audio>=0.11.0  # For additional model support 
